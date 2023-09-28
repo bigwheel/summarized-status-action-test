@@ -1,8 +1,7 @@
 on:
-  check_run:
-    types: [rerequested, completed]
-  check_suite:
-    types: [completed]
+  workflow_run:
+    types:
+      - completed
 
 jobs:
   test:
