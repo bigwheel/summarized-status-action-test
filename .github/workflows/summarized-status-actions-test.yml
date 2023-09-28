@@ -1,6 +1,8 @@
 on:
-  check_run: null
-  check_suite: null
+  check_run:
+    types: [rerequested, completed]
+  check_suite:
+    types: [completed]
 
 jobs:
   test:
