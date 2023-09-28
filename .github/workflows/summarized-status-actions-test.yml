@@ -1,0 +1,10 @@
+on:
+  check_run: null
+  check_suite: null
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: test
+    steps:
+      - run: printenv
