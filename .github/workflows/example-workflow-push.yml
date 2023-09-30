@@ -5,3 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo 'Nothing to do'
+      - uses: bigwheel/summarized-status-action@main
+        if: always()
