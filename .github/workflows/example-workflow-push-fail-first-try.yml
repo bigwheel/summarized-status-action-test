@@ -6,3 +6,5 @@ jobs:
     steps:
       - if: github.run_attempt == 1
         run: exit 1
+      - uses: bigwheel/summarized-status-action@main
+        if: always()
