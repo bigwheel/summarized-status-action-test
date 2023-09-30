@@ -6,6 +6,6 @@ on:
 jobs:
   dummy:
     runs-on: ubuntu-latest
-    name: test
+    name: dummy
     steps:
       - uses: bigwheel/summarized-status-action@main
